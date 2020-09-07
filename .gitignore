@@ -1,0 +1,8 @@
+node_modules
+*.lock
+dist
+build
+yarn-error.log
+.idea
+arcive.zip
+.DS_Store
