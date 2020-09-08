@@ -3,5 +3,11 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start && lerna run watch",
+    "tsc": "lerna run tsc --stream",
+    "watch": "lerna run watch --stream"
   }
 }
